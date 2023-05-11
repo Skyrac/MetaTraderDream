@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaTraderDream.Api", "API\MetaTraderDream.Api.csproj", "{540B0607-6D5A-4BA9-BF49-FA62111B6DF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaTraderDream.Contracts", "MetaTraderDream.Contracts\MetaTraderDream.Contracts.csproj", "{48EA1BD4-1510-446A-B013-CF76E0F9F2DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Database.Utils", "Utilities\Database.Utils\Database.Utils.csproj", "{F41FBBD5-6B17-4189-B1BD-F180764CC25C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{43B2DDF7-B3AF-45B1-9E7D-8F149A5C6EC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MetaTraderDream", "MetaTraderDream", "{628B3D2F-C08B-4FD6-950B-92E526794FB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Default.Utils", "Utilities\Default.Utils\Default.Utils.csproj", "{36847453-7128-4016-89B9-ADAA44E56826}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{540B0607-6D5A-4BA9-BF49-FA62111B6DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{540B0607-6D5A-4BA9-BF49-FA62111B6DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{540B0607-6D5A-4BA9-BF49-FA62111B6DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{540B0607-6D5A-4BA9-BF49-FA62111B6DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48EA1BD4-1510-446A-B013-CF76E0F9F2DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48EA1BD4-1510-446A-B013-CF76E0F9F2DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48EA1BD4-1510-446A-B013-CF76E0F9F2DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48EA1BD4-1510-446A-B013-CF76E0F9F2DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F41FBBD5-6B17-4189-B1BD-F180764CC25C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F41FBBD5-6B17-4189-B1BD-F180764CC25C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F41FBBD5-6B17-4189-B1BD-F180764CC25C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F41FBBD5-6B17-4189-B1BD-F180764CC25C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36847453-7128-4016-89B9-ADAA44E56826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36847453-7128-4016-89B9-ADAA44E56826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36847453-7128-4016-89B9-ADAA44E56826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36847453-7128-4016-89B9-ADAA44E56826}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{540B0607-6D5A-4BA9-BF49-FA62111B6DF0} = {628B3D2F-C08B-4FD6-950B-92E526794FB6}
+		{48EA1BD4-1510-446A-B013-CF76E0F9F2DA} = {628B3D2F-C08B-4FD6-950B-92E526794FB6}
+		{F41FBBD5-6B17-4189-B1BD-F180764CC25C} = {43B2DDF7-B3AF-45B1-9E7D-8F149A5C6EC1}
+		{36847453-7128-4016-89B9-ADAA44E56826} = {43B2DDF7-B3AF-45B1-9E7D-8F149A5C6EC1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F44B198-C4E0-4877-A291-17EE28179EB6}
+	EndGlobalSection
+EndGlobal
